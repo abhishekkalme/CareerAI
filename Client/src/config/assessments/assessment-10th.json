@@ -1,0 +1,102 @@
+{
+  "level": "10th",
+  "duration": 30,
+  "passingScore": 60,
+  "sections": [
+    {
+      "id": "aptitude",
+      "title": "Basic Aptitude",
+      "description": "Test your logical thinking and problem-solving abilities",
+      "timeLimit": 15,
+      "questions": [
+        {
+          "id": "apt_1",
+          "type": "multiple-choice",
+          "question": "If 5 books cost ₹250, how much will 8 books cost?",
+          "options": ["₹300", "₹350", "₹400", "₹450"],
+          "category": "numerical",
+          "weight": 1,
+          "explanation": "Cost per book = ₹250/5 = ₹50. So 8 books = 8 × ₹50 = ₹400"
+        },
+        {
+          "id": "apt_2",
+          "type": "multiple-choice",
+          "question": "Complete the series: 2, 6, 12, 20, ?",
+          "options": ["28", "30", "32", "36"],
+          "category": "logical",
+          "weight": 1,
+          "explanation": "Pattern: n(n+1) where n = 1,2,3,4,5. Next is 5×6 = 30"
+        },
+        {
+          "id": "apt_3",
+          "type": "multiple-choice",
+          "question": "If BOOK is coded as CPPL, how is DESK coded?",
+          "options": ["EFTL", "EFSL", "DFTL", "EFTK"],
+          "category": "verbal",
+          "weight": 1,
+          "explanation": "Each letter is shifted by +1 position. D→E, E→F, S→T, K→L"
+        }
+      ]
+    },
+    {
+      "id": "interests",
+      "title": "Subject Interests",
+      "description": "Discover which subjects and activities interest you most",
+      "timeLimit": 15,
+      "questions": [
+        {
+          "id": "int_1",
+          "type": "rating",
+          "question": "How much do you enjoy Mathematics?",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "subject_interest",
+          "weight": 1
+        },
+        {
+          "id": "int_2",
+          "type": "rating",
+          "question": "How much do you enjoy Science (Physics, Chemistry, Biology)?",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "subject_interest",
+          "weight": 1
+        },
+        {
+          "id": "int_3",
+          "type": "rating",
+          "question": "How much do you enjoy Social Studies/History?",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "subject_interest",
+          "weight": 1
+        },
+        {
+          "id": "int_4",
+          "type": "multiple-choice",
+          "question": "Which activity do you find most engaging?",
+          "options": [
+            "Solving math problems and puzzles",
+            "Conducting science experiments",
+            "Reading and writing stories",
+            "Drawing and creating art",
+            "Playing sports and physical activities"
+          ],
+          "category": "activity_preference",
+          "weight": 2
+        },
+        {
+          "id": "int_5",
+          "type": "ranking",
+          "question": "Rank these career areas by interest (1=most interested, 5=least interested):",
+          "options": [
+            "Engineering & Technology",
+            "Medical & Healthcare",
+            "Arts & Creative Fields",
+            "Business & Commerce",
+            "Government & Public Service"
+          ],
+          "category": "career_interest",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

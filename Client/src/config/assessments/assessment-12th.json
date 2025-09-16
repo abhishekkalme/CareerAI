@@ -1,0 +1,94 @@
+{
+  "level": "12th",
+  "duration": 45,
+  "passingScore": 65,
+  "sections": [
+    {
+      "id": "stream_aptitude",
+      "title": "Stream-Based Aptitude",
+      "description": "Test your aptitude in your chosen stream",
+      "timeLimit": 25,
+      "questions": [
+        {
+          "id": "sci_1",
+          "type": "multiple-choice",
+          "question": "What is the derivative of x²?",
+          "options": ["x", "2x", "x²", "2x²"],
+          "category": "mathematics",
+          "weight": 1,
+          "stream": "science"
+        },
+        {
+          "id": "sci_2",
+          "type": "multiple-choice",
+          "question": "Which element has atomic number 6?",
+          "options": ["Oxygen", "Carbon", "Nitrogen", "Hydrogen"],
+          "category": "chemistry",
+          "weight": 1,
+          "stream": "science"
+        },
+        {
+          "id": "com_1",
+          "type": "multiple-choice",
+          "question": "What is the basic accounting equation?",
+          "options": [
+            "Assets = Liabilities + Equity",
+            "Revenue = Expenses + Profit",
+            "Assets = Revenue - Expenses",
+            "Equity = Assets - Revenue"
+          ],
+          "category": "accounting",
+          "weight": 1,
+          "stream": "commerce"
+        },
+        {
+          "id": "arts_1",
+          "type": "multiple-choice",
+          "question": "Who wrote 'Pride and Prejudice'?",
+          "options": ["Charlotte Brontë", "Jane Austen", "Emily Dickinson", "Virginia Woolf"],
+          "category": "literature",
+          "weight": 1,
+          "stream": "arts"
+        }
+      ]
+    },
+    {
+      "id": "competitive_readiness",
+      "title": "Competitive Exam Readiness",
+      "description": "Assess your preparation for competitive exams",
+      "timeLimit": 20,
+      "questions": [
+        {
+          "id": "comp_1",
+          "type": "single-choice",
+          "question": "Which competitive exam are you most interested in?",
+          "options": ["JEE (Engineering)", "NEET (Medical)", "CUET (Central Universities)", "NDA (Defence)", "CA Foundation (Commerce)", "CLAT (Law)", "Not sure yet"],
+          "category": "exam_preference",
+          "weight": 2
+        },
+        {
+          "id": "comp_2",
+          "type": "rating",
+          "question": "How confident are you about your exam preparation?",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "preparation_confidence",
+          "weight": 1
+        },
+        {
+          "id": "comp_3",
+          "type": "multiple-choice",
+          "question": "What is your biggest challenge in exam preparation?",
+          "options": [
+            "Time management",
+            "Understanding concepts",
+            "Solving practice questions",
+            "Stress and anxiety",
+            "Choosing the right exam"
+          ],
+          "category": "preparation_challenge",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

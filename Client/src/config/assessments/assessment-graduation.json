@@ -1,0 +1,92 @@
+{
+  "level": "graduation",
+  "duration": 60,
+  "passingScore": 70,
+  "sections": [
+    {
+      "id": "technical_skills",
+      "title": "Technical Skills Assessment",
+      "description": "Evaluate your technical competencies",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "id": "tech_1",
+          "type": "rating",
+          "question": "Rate your proficiency in Programming (any language)",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "programming",
+          "weight": 2
+        },
+        {
+          "id": "tech_2",
+          "type": "rating",
+          "question": "Rate your proficiency in Data Analysis",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "data_analysis",
+          "weight": 2
+        },
+        {
+          "id": "tech_3",
+          "type": "multiple-choice",
+          "question": "Which programming language are you most comfortable with?",
+          "options": ["Python", "Java", "C++", "JavaScript", "R", "None", "Other"],
+          "category": "programming_language",
+          "weight": 1
+        },
+        {
+          "id": "tech_4",
+          "type": "single-choice",
+          "question": "Have you completed any internships?",
+          "options": ["Yes, multiple internships", "Yes, one internship", "No, but applied", "No, not yet"],
+          "category": "experience",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "career_readiness",
+      "title": "Career Readiness",
+      "description": "Assess your readiness for the job market",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "id": "career_1",
+          "type": "single-choice",
+          "question": "What is your immediate career goal?",
+          "options": [
+            "Get a job immediately",
+            "Pursue higher studies (Masters/MBA)",
+            "Start my own business",
+            "Prepare for government exams",
+            "Still exploring options"
+          ],
+          "category": "career_goal",
+          "weight": 2
+        },
+        {
+          "id": "career_2",
+          "type": "rating",
+          "question": "How confident are you about your interview skills?",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "interview_confidence",
+          "weight": 1
+        },
+        {
+          "id": "career_3",
+          "type": "multiple-choice",
+          "question": "Which industry interests you most?",
+          "options": [
+            "Information Technology",
+            "Banking & Finance",
+            "Healthcare & Pharmaceuticals",
+            "Education & Training",
+            "Government & Public Sector",
+            "Startups & Entrepreneurship"
+          ],
+          "category": "industry_preference",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "level": "post-graduation",
+  "duration": 45,
+  "passingScore": 75,
+  "sections": [
+    {
+      "id": "leadership_skills",
+      "title": "Leadership & Management",
+      "description": "Assess your leadership and management capabilities",
+      "timeLimit": 25,
+      "questions": [
+        {
+          "id": "lead_1",
+          "type": "rating",
+          "question": "How comfortable are you leading a team?",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "leadership",
+          "weight": 2
+        },
+        {
+          "id": "lead_2",
+          "type": "multiple-choice",
+          "question": "What is your preferred leadership style?",
+          "options": [
+            "Democratic (collaborative decision-making)",
+            "Transformational (inspiring and motivating)",
+            "Servant (supporting team growth)",
+            "Situational (adapting to circumstances)",
+            "Still developing my style"
+          ],
+          "category": "leadership_style",
+          "weight": 2
+        },
+        {
+          "id": "lead_3",
+          "type": "rating",
+          "question": "Rate your experience in strategic planning",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "strategic_thinking",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "career_advancement",
+      "title": "Career Advancement",
+      "description": "Evaluate your career progression goals",
+      "timeLimit": 20,
+      "questions": [
+        {
+          "id": "adv_1",
+          "type": "single-choice",
+          "question": "What is your primary career advancement goal?",
+          "options": [
+            "Move to senior management role",
+            "Switch to a different industry",
+            "Start my own company",
+            "Become a subject matter expert",
+            "Achieve work-life balance",
+            "Increase salary significantly"
+          ],
+          "category": "advancement_goal",
+          "weight": 2
+        },
+        {
+          "id": "adv_2",
+          "type": "rating",
+          "question": "How satisfied are you with your current career progress?",
+          "options": ["1", "2", "3", "4", "5"],
+          "category": "career_satisfaction",
+          "weight": 1
+        },
+        {
+          "id": "adv_3",
+          "type": "multiple-choice",
+          "question": "What is your biggest career challenge?",
+          "options": [
+            "Lack of growth opportunities",
+            "Insufficient skills for next level",
+            "Work-life balance issues",
+            "Limited networking",
+            "Unclear career direction",
+            "Industry changes and disruption"
+          ],
+          "category": "career_challenge",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

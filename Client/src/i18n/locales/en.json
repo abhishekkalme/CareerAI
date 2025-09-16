@@ -1,0 +1,58 @@
+{
+  "home": {
+    "hero": {
+      "badge": "Jammu & Kashmir Education Challenge",
+      "title": "Bridging the Awareness Gap in",
+      "title_highlight": "Higher Education",
+      "description": "Less than <1>25%</1> of J&K students pursue graduation. Despite <2>50,000+</2> appearing for board exams, only <3>13,000</3> join colleges. Our platform empowers students to make informed academic and career decisions.",
+      "start_journey": "Start Your Career Journey"
+    },
+    "stats": {
+      "students_board": "Students appearing in board exams annually",
+      "join_college": "Actually join colleges",
+      "colleges_jammu": "Jammu Division Colleges",
+      "enrollment_decline": "Enrollment Decline"
+    },
+    "features": {
+      "title": "Our Platform Provides the Solution",
+      "description": "We empower students with clarity, choice, and career confidence by offering tools and insights that connect education with real-world opportunities.",
+      "quiz": {
+        "title": "Aptitude & Interest Quiz",
+        "description": "Short quizzes to assess student interests and strengths. Suggests suitable streams like Arts, Science, Commerce, or Vocational."
+      },
+      "mapping": {
+        "title": "Course-to-Career Mapping",
+        "description": "Visual flowcharts show how each degree (BA, BSc, BCom, etc.) connects to jobs, government exams, higher studies, and entrepreneurship."
+      },
+      "colleges": {
+        "title": "Nearby Colleges Directory",
+        "description": "Location-based list of government colleges with available programs, facilities, and admission details."
+      },
+      "dashboard": {
+        "title": "Personalized Dashboard",
+        "description": "AI-driven recommendations for courses, colleges, scholarships, and career paths based on student profiles."
+      }
+    },
+    "cta": {
+      "title": "Let’s Reignite the Future of J&K Students",
+      "description": "This platform isn’t just digital — it’s transformational. Together, we can restore confidence in higher education and enable our youth with the roadmap they deserve.",
+      "get_started": "Get Started"
+    },
+    "header": {
+      "title": "Career & Education Advisor",
+      "subtitle": "Guiding students to make informed academic and career decisions",
+      "theme_toggle": "Toggle Theme"
+    },
+    "navigation": {
+      "mentoring": "Mentoring",
+      "learning": "Learning Resources",
+      "lecturers": "Lecturers",
+      "ai_counselor": "AI Career Counselor",
+      "profile": "Profile"
+    },
+    "common": {
+    "next": "Next",
+    "back": "Back"
+  }
+  }
+}
