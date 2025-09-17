@@ -283,7 +283,7 @@ export function DynamicOnboarding({ onComplete }: DynamicOnboardingProps) {
             </Button>
             <Button
               onClick={handleNext}
-              disabled={isStepValid()}
+              disabled={!isStepValid()}
               className="flex-1 sm:flex-none"
             >
               {currentStep === steps.length - 1
