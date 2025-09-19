@@ -1,0 +1,12 @@
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Config\WebConfig.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Controller\CareerAdvisorController.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Controller\CareerController.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Controller\UserProfileController.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Entity\Career.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Entity\UserProfile.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Repository\CareerRepository.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Repository\UserProfileRepository.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Service\CareerRoadmapService.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Service\GeminiService.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\Service\SkillGapService.java
+E:\SIH_Project\skillGapAnalysis\src\main\java\com\SkillGapAnalysisApplication.java

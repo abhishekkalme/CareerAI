@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Career Advisor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: grid;
+            gap: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
+        button {
+            padding: 12px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Enter Your Profile</h2>
+    <form th:action="@{/profile}" th:object="${userProfile}" method="post">
+        <label>Name</label>
+        <input type="text" th:field="*{name}" required/>
+
+        <label>Age</label>
+        <input type="number" th:field="*{age}" required/>
+
+        <label>Location</label>
+        <input type="text" th:field="*{location}"/>
+
+        <label>Email</label>
+        <input type="email" th:field="*{email}" required/>
+
+        <label>Career Goals (comma separated)</label>
+        <input type="text" th:field="*{careerGoals}" placeholder="Data Scientist, Web Developer"/>
+
+        <label>Skills (comma separated)</label>
+        <input type="text" th:field="*{skills}" placeholder="Python, SQL, Java"/>
+
+        <label>Education</label>
+        <input type="text" th:field="*{education}"/>
+
+        <label>Field</label>
+        <input type="text" th:field="*{field}"/>
+
+        <label>Graduation</label>
+        <input type="text" th:field="*{graduation}"/>
+
+        <label>GPA</label>
+        <input type="text" th:field="*{gpa}"/>
+
+        <label>Experience</label>
+        <input type="text" th:field="*{experience}"/>
+
+        <label>Current Role</label>
+        <input type="text" th:field="*{currentRole}"/>
+
+        <label>Industry</label>
+        <input type="text" th:field="*{industry}"/>
+
+        <label>Interests (comma separated)</label>
+        <input type="text" th:field="*{interests}"/>
+
+        <label>Work Style</label>
+        <input type="text" th:field="*{workStyle}"/>
+
+        <label>Salary Expectation</label>
+        <input type="text" th:field="*{salaryExpectation}"/>
+
+        <button type="submit">Submit Profile</button>
+    </form>
+</div>
+</body>
+</html>

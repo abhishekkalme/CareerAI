@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Skill Gap Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2, h3 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li.user-skill {
+            background: #d4edda;
+            color: #155724;
+            margin: 5px 0;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        li.gap-skill {
+            background: #f8d7da;
+            color: #721c24;
+            margin: 5px 0;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        li.job-option {
+            background: #fff3cd;
+            color: #856404;
+            margin: 5px 0;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .recommended {
+            background: #cce5ff;
+            color: #004085;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .roadmap {
+            margin-top: 20px;
+            background: #e2e3e5;
+            color: #383d41;
+            padding: 15px;
+            border-radius: 6px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Career Goals</h2>
+    <ul>
+        <li th:each="goal : ${#strings.arraySplit(careerGoals, ',')}" th:text="${goal.trim()}"></li>
+    </ul>
+
+    <h3>Your Skills</h3>
+    <ul>
+        <li th:each="skill : ${userSkills}" th:text="${skill}" class="user-skill"></li>
+    </ul>
+
+    <h3>Skills to Learn</h3>
+    <ul>
+        <li th:each="skill : ${gapSkills}" th:text="${skill}" class="gap-skill"></li>
+    </ul>
+
+    <h3>Possible Job Options</h3>
+    <ul>
+        <li th:each="job : ${#strings.arraySplit(jobs, ',')}" th:text="${job.trim()}" class="job-option"></li>
+    </ul>
+
+    <div class="recommended">
+        🚀 Recommended Career: <span th:text="${recommendedCareer}"></span>
+    </div>
+
+    <h2>Career Roadmap</h2>
+    <div class="roadmap">
+        <p th:text="${roadmap}"></p>
+    </div>
+</div>
+</body>
+</html>
